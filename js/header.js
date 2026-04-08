@@ -1,4 +1,4 @@
-fetch('/components/header.html')
+fetch('components/header.html?v=20260408')
     .then(response => response.text())
     .then(html => {
         document.getElementById('site-header').innerHTML = html;
